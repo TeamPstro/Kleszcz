@@ -9,8 +9,13 @@ client.on('guildMemberAdd', member => {
 })
 
 client.on('message', msg => {
-  if (msg.content === 'Jak pan jezus powiedział?') {
+  if (msg.content === 'Jak pan jezus powiedział?') 
+  {
     msg.reply('Tak jak pan jezus powiedział!')
+  }
+  else
+  {
+    msg.reply('co ty pierdolisz? powtórz')
   }
 })
 
